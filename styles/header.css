@@ -1,0 +1,40 @@
+/*General*/
+	header
+	{
+	height: 100vh;
+	background-color: #19C2BC;
+	/*border: solid black 3px;*/
+	}
+
+	header h1
+	{
+	position: absolute;
+	margin: 15% 0 0 0;
+	text-align: center;
+	font-size: 6vw;
+	width: 100%;
+	/*border: solid black 2px;*/
+	color: rgb(255, 255, 255);
+	text-shadow: 1.5px 3px 3px black;
+	font-family: 'Josefin Sans', sans-serif;
+	z-index: 1;
+	}
+/*Images*/
+	.slideshow-container
+	{
+	width: 100%;
+	}
+
+	.fade
+	{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.3s;
+	animation-name: fade;
+	animation-duration: 1.3s;
+	}
+
+	@keyframes fade
+	{
+	from {opacity: .7} 
+	to {opacity: 1}
+	}
